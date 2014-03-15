@@ -6,12 +6,12 @@ This is the workshop I made for WMS London, UK 2013
 
 
 ## Item
--Building a Responsive Future-Friendly Web
--What is "the Web"?
--Think again. What is the "The Web"?
--Developing across multiple platforms and browsers
--What is a future-friendly Web
--Questions?. The End.
+#####Building a Responsive Future-Friendly Web
+#####What is "the Web"?
+#####Think again. What is the "The Web"?
+#####Developing across multiple platforms and browsers
+#####What is a future-friendly Web
+#####Questions?. The End.
 
 
 
