@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>Building a Responsive Future-Friendly Web</title>
+	<meta name="author" content="Leo Lanese" />
+	<meta name="description" content="Workshop for WMS, London, UK" />
+	<meta name="keywords"  content="workshop, responsive web design, RWD, mobile first, future friendly, mobile first, javascript, css, html5, mobile development" />
+
+    <link rel="apple-touch-icon" href="/img/icons/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/icons/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/icons/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/icons/touch-icon-ipad-retina.png">
+
+    <link rel="stylesheet" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" href="css/workshop.css" />
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="./js/jquery.slimscroll.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$.fn.fullpage({
+				anchors: ['1', '2', '3', '4', '5', '6'],
+				slidesColor: ['#C63D0F', '',  '#7E8F7C', '#0B91AA', '#5AC6FF', '#0FBFC6'],
+				navigation: true,
+				navigationPosition: 'left',
+				navigationTooltips: ['Building a Responsive Future-Friendly Web', 'What is the Web', 'Think twice. What is the The Web?', "Developing across multiple platforms and browsers", "What is a future-friendly Web", "Questions?"]
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+
+
+<div class="section " id="section1">
+    <div class="intro">
+        <!--
+        <h1>"Building a Responsive Future-Friendly Web"</h1>
+        <p>Leo Lanese</p>
+        -->
+    </div>
+    <h2 class="title">Building a Responsive Future-Friendly Web</h2>
+    <div class="twitter">
+
+        <ul>
+            <li><a href="https://twitter.com/LeoLaneseltd" target="_blank">@leolaneseltd</a></li>
+        </ul>
+    </div>
+
+    <div class="intro">
+        <h1>Where I have been?</h1>
+    </div>
+    <div class="base">
+        <ul>
+            <li><a href="http://leolanese.com/spainjs/" target="_blank">Spain JS</a></li>
+            <li><a href="http://leolanese.com/scotlandjs/" target="_blank">Scotland JS</a></li>
+            <li><a href="http://leolanese.com/jsconf/" target="_blank">JS Conf Argentina</a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+<div class="section" id="section2">
+
+    <div class="slide" id="slide20">
+        <div class="intro">
+            <h1>What is "the Web"?</h1>
+        </div>
+    </div>
+
+    <div class="slide" id="slide21">
+        <h1>Desktop/Laptop Web</h1>
+        <p>Computers keep us productive and informed</p>
+            <li>Design is fixed to the screen, usually 1024px.</li>
+            <li>Design is pixel perfect on every single browser</li>
+            <li>Optimised for specific browsers</li>
+    </div>
+
+    <div class="slide" id="slide23">
+        <h1>Mobile Web</h1>
+            <p>SmartPhones are not a luxury anymore, they are a necessity.</p>
+            <img src="./imgs/mobileweb.jpg" alt="mobile stats">
+            <li><a href="http://thenextweb.com/apple/2012/01/25/there-are-now-more-iphones-sold-than-babies-born-in-the-world-every-day/" target="_blank">More iPhones are sold than babies born every day (thenextweb.com)</a></li>
+            <li><a href="http://www.digitalbuzzblog.com/wp-content/uploads/2012/07/the-rise-of-mobile-infographic1.png" target="_blank">Over 1.2 billion people access the web from their mobile devices (digitalbuzzblog)</a></li>
+            <li><a href="http://allthingsd.com/20120525/mobile-devices-now-make-up-about-20-percent-of-u-s-web-traffic/" target="_blank">Mobile Devices Now Make Up About 20 Percent of U.S. Web Traffic (allthingsd.com)</a></li>
+    </div>
+
+    <div class="slide" id="slide24">
+        <h1>Tablet Web</h1>
+        <p>Tablets are important. You get one; I get one too.</p>
+        <img src="./imgs/tablet.png" alt="tablet stats">
+        <li><a href="http://www.forbes.com/sites/chuckjones/2013/03/11/tablet-web-traffic-greater-than-smartphones/" target="_blank">Tablet web traffic greater than smartphones (Adobe)</a></li>
+        <li><a href="http://www.fastcompany.com/1809535/tablet-users-spend-50-more-purchase-smartphone-owners" target="_blank">Tablet users spend 50% more than PC users (Adobe)</a></li>
+    </div>
+
+    <div class="slide" id="slide25">
+        <h1>Console, SmartTV, Phablet, Watch, Glass, Kitchen, Camera, Double-screen, Curved-screen, Flexible-screen ... WEBS?</h1>
+        <li><a href="http://www.v3.co.uk/v3-uk/news/2286000/almost-12-000-different-android-devices-creating-huge-fragmentation-issues" target="_blank">Almost 12,000 different Android devices and 8 different versions of Android were still in use (V3.co.uk)</a></li>
+        <li><a href="http://services.google.com/fh/files/misc/multiscreenworld_final.pdf" target="_blank">We use an average of three different screen combinations every day (Google)</a></li>
+    </div>
+
+    <div class="slide" id="slide26">
+        <h1 class="blue">Problem:</h1>
+        <h2>
+            <b>How to reach all customers:</b>
+        </h2>
+        <h3 style="text-align:left; margin-left: 10%">
+            If your stuff, <br>
+            if your content,<br>
+            if your information, <br>
+            if your products, <br>
+            if your services are not available on mobile,<br>
+            they don't exist for certain users. -Karen McGrane
+        </h3>
+    </div>
+
+    <div class="slide" id="slide27">
+        <h1 class="blue">Problem:</h1>
+        <h2>
+            <b>Limited Resources:</b><br/>
+        </h2>
+        <h3 style="text-align:left; margin-left: 10%">
+            Soon everything is going to be connect to internet. We cannot create a different project for every device connected to the Web.
+        </h3>
+    </div>
+
+    <div class="slide" id="slide28">
+        <h1 class="blue">Problem:</h1>
+        <h2>
+            <b>Future proof:</b><br>
+        </h2>
+        <h3>
+            We need to follow the market trends. Even if we could create a solution for every environment on the market, if that could be possible. <br>
+            We cannot predict which device is going to be next.
+        </h3>
+    </div>
+
+</div>
+
+
+
+<div class="section" id="section3">
+
+    <div class="slide" id="slide31">
+        <div class="intro">
+            <h1>Think again.</h1> <br>
+            <h1>What is the "The Web"?</h1>
+        </div>
+    </div>
+
+    <div class="slide" id="slide32">
+        <img src="./imgs/notheweb.png" alt="iphone" id="iphone-two" />
+    </div>
+
+    <div class="slide" id="slide33">
+        <h1>The Web is everything.</h1>
+    </div>
+
+    <div class="slide" >
+        <h1>If we consider:</h1>
+        <h2>
+             <b class="blue">"the Web"</b> as the <b class="blue">"Internet Service"</b>,<br>
+             <b class="blue">"Websites"</b> as the <b class="blue">"Interface"</b> <br>
+             and <b class="blue">"Mobile"</b> as the <b class="blue">"Environment"</b> <br>
+        </h2>
+    </div>
+
+    <div class="slide" id="slide34">
+        <h2>
+            In order to serve the same <b class="blue">"Websites"</b>/<b class="blue">"Interface"</b> <br>
+            to different <b class="blue">"Mobile"</b>/<b class="blue">"Environment"</b> we need a technology to
+            be smart enough to adapt to the new environment
+        </h2>
+    </div>
+
+    <div class="slide" id="slide35">
+        <h2>
+            <b class="blue">"Websites"</b>/<b class="blue">"Interface"</b>
+            will be just one of many interfaces we will use to interact with the
+            <b class="blue">"the Web"</b>/<b class="blue">"Internet Service"</b>
+        </h2>
+    </div>
+
+</div>
+
+
+
+<div class="section" id="section4">
+
+    <div class="slide" id="slide40">
+        <div class="intro">
+            <h1>Developing across multiple platforms and browsers</h1>
+        </div>
+    </div>
+
+
+    <div class="slide" id="slide41">
+        <img src="./imgs/delorean.jpg" alt="road where we are going we don't need roads">
+        <div class="intro">
+            <h1>Responsive Web Design</h1>
+        </div>
+    </div>
+
+    <div class="slide" id="slide42">
+        <h1>
+            Responsive Web Design creates a <a class="blue">"Unique"</a> and <a class="blue">"future-friendly"</a> Web capable of flowing through all platforms, devices and brands
+         </h1>
+	</div>
+
+    <div class="slide" id="slide43">
+        <h1>The 123 of RWD</h1>
+        <ul>
+            <li><a href="http://jsfiddle.net/leolanese/7cN76/" target="_blank">1- A flexible, grid-based layout</a></li>
+            <li><a href="http://scottjehl.github.io/picturefill/" target="_blank">2- Flexible images and media</a></li>
+            <li><a href="http://jsfiddle.net/leolanese/fvc9e/" target="_blank">3- media queries</a></li>
+        </ul>
+    </div>
+
+</div>
+
+
+<div class="section" id="section5">
+
+    <div class="slide" id="slide50">
+        <div class="intro">
+            <h1>What is a future-friendly Web</h1>
+        </div>
+    </div>
+
+    <div class="slide" id="slide51">
+            <h1>Focus on Content:</h1>
+             <h2>
+                 Keep it simple. Less is more. <br>
+                 Analyze our content and establish strong content strategies to ensure our content is meaningful to our users and our businesses.
+             </h2>
+    </div>
+
+    <div class="slide" id="slide52">
+            <h1>Content/Mobile First:</h1>
+            <h2>
+                Based on the minimum requirement building up a core experience.
+            </h2>
+    </div>
+
+    <div class="slide" id="slide54">
+            <h1>Fluid Content:</h1>
+            <h2>
+                Content needs to be fluid, like water. When water flows into a larger or smaller part of a river it instantly adapts to the shape and size of it's environment (<a href="http://www.youtube.com/watch?v=LTnSEFsInp0" target="_blank">Master Lee</a>)
+            </h2>
+    </div>
+
+    <div class="slide" id="slide53">
+            <h1>Progressive Enhancement:</h1>
+            <h2>
+                Apply progressive enhancement to things as basic as screen size, bandwidth, JavaScript support, and performance. building up a core experience
+            </h2>
+    </div>
+
+    <div class="slide" id="slide55">
+            <h1>Device capabilities detection:</h1>
+            <h2>
+                Take advantage of the device capabilities. features provide opportunities to enhance the user experience based on the device’s capabilities.
+            </h2>
+    </div>
+
+</div>
+
+
+
+
+<div class="section" id="section6">
+    <h1>THE END</h1>
+	<div class="intro">
+		<h1>Questions?</h1>
+	</div>
+    <div class="base">
+        <ul>
+            <li><a href="https://twitter.com/LeoLaneseltd" target="_blank">@leolaneseltd</a></li>
+            <li><a href="https://github.com/sirwilliam/root/tree/master/workshop" target="_blank">github</a></li>
+            <li><a href="https://twitter.com/LeoLaneseltd" target="_blank">www.leolanese.com</a></li>
+        </ul>
+    </div>
+
+
+</div>
+
+
+
+</body>
+</html>
