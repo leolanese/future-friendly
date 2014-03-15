@@ -2,11 +2,7 @@
 
 ##### @leolanese
 
-This is the workshop I made for WMS London, UK
-
-
-## Event listeners:
-This script is fired on resize() for testing propouses and rotate() for rotation propouses.
+This is the workshop I made for WMS London, UK 2013
 
 
 ## Item
@@ -25,14 +21,13 @@ www.leolanese.com/workshop/
 
 
 ## License
-
 Pictures:
 Borrowed from http://www.pixeden.com/
 
 
 MIT license
 ====================
-Or same license apply for 3rd party libraries I'm using.
+Or same license apply for 3rd party libraries I'm using if apply.
 
 
 
